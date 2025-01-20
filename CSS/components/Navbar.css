@@ -1,0 +1,21 @@
+.navbar {
+
+display: flex;
+justify-content:space-between;
+padding: 40px;
+max-width: 1200px;
+margin: auto;
+color: black;
+
+}
+.navbar .navbar_menu {
+    display: flex;
+    gap: 30px;
+    color: black;
+
+
+}
+.serch input{
+   height: 25px;
+   width: 25;
+}
