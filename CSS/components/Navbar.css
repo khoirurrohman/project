@@ -1,21 +1,46 @@
 .navbar {
-
-display: flex;
-justify-content:space-between;
-padding: 40px;
-max-width: 1200px;
-margin: auto;
-color: black;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 
 }
+
 .navbar .navbar_menu {
     display: flex;
-    gap: 30px;
+    gap: 20px;
+}
+.navbar_menu a {
     color: black;
+    padding: 10px;
+}
+
+.search input {
+    border: none;
+    padding: 8px; 
+    border-radius: 0px 5px 5px 0px;
+    width: auto;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: rgb(212, 212, 212);
+}
+
+.search button  {
+    border: none;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 0px 5px 5px 0px;
+    
+}
 
 
+i {
+    color: white;
 }
-.serch input{
-   height: 25px;
-   width: 25;
-}
+

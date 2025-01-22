@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "Global.css";
 @import "components/Navbar.css";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import "components/hero.css";
+@import "components/card.css";
 
-body {
-    font-family: "poppins", sans-serif;
+.post {
+    max-width: var(--max-width);
+    padding: 30px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 50px;
 }
+
+/* @media (max-width )(680px){
+    
+    grid-template-columns: repeat(3,1fr);
+
+} */
+
